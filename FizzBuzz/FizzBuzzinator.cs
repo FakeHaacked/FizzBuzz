@@ -8,13 +8,19 @@ namespace FizzBuzz
     {
         public IEnumerable<string> Generate()
         {
-            for (int i = 1; i <= 100; i++)
-            {
-                if (i % 15 == 0) yield return "FizzBuzz";
-                if (i % 3 == 0) yield return "Fizz";
-                if (i % 5 == 0) yield return "Buzz";
-                yield return i.ToString(CultureInfo.InvariantCulture);
-            }
+            return from number in Enumerable.Range(1, 100)
+                   select GetValue(number);
+        }
+
+        private static string GetValue(int number)
+        {
+            return number % 15 == 0
+                ? "FizzBuzz"
+                : (number % 3 == 0
+                    ? "Fizz"
+                    : (number % 5 == 0
+                        ? "Buzz"
+                        : number.ToString(CultureInfo.InvariantCulture)));
         }
     }
 }
