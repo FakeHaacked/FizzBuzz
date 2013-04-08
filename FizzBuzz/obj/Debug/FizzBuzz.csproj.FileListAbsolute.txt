@@ -1,6 +1,0 @@
-C:\Users\Phil\Documents\GitHub\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe.config
-C:\Users\Phil\Documents\GitHub\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe
-C:\Users\Phil\Documents\GitHub\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
-C:\Users\Phil\Documents\GitHub\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csprojResolveAssemblyReference.cache
-C:\Users\Phil\Documents\GitHub\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.exe
-C:\Users\Phil\Documents\GitHub\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb
