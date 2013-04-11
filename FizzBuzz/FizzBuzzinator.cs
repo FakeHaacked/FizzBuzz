@@ -11,9 +11,9 @@ namespace FizzBuzz
             for (int i = 1; i <= 100; i++)
             {
                 if (i % 15 == 0) yield return "FizzBuzz";
-                if (i % 3 == 0) yield return "Fizz";
-                if (i % 5 == 0) yield return "Buzz";
-                yield return i.ToString(CultureInfo.InvariantCulture);
+                else if (i % 3 == 0) yield return "Fizz";
+                else if (i % 5 == 0) yield return "Buzz";
+                else yield return i.ToString(CultureInfo.InvariantCulture);
             }
         }
     }
