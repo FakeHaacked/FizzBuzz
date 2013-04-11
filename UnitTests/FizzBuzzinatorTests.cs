@@ -13,11 +13,12 @@ namespace UnitTests
             {
                 var fizzBuzz = new FizzBuzzinator();
 
-                string[] values = fizzBuzz.Generate().Take(3).ToArray();
+                string[] values = fizzBuzz.Generate().Take(4).ToArray();
 
                 Assert.Equal("1", values[0]);
                 Assert.Equal("2", values[1]);
                 Assert.Equal("Fizz", values[2]);
+                Assert.Equal("4", values[3]);
             }
         }
     }
