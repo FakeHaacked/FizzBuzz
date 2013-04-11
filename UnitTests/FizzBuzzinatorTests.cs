@@ -19,6 +19,7 @@ namespace UnitTests
                 Assert.Equal("2", values[1]);
                 Assert.Equal("Fizz", values[2]);
                 Assert.Equal("4", values[3]);
+                Assert.Equal("Buzz", values[4]);
             }
         }
     }
