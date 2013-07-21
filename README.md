@@ -6,4 +6,4 @@ by [Coding Horrrrror](http://www.codinghorror.com/blog/2007/02/why-cant-programm
 ## Notes
 
 This repository is really just here to be used as a demo for a talk at 
-[anglebrackets](http://anglebrackets.org) by Phil Haack.
+[anglebrackets](http://anglebrackets.org) and then MonkeySpace by Phil Haack.
